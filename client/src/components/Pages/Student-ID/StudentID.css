@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap");
+
+body,
+html,
+.App,
+#root,
+.StudentID-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.StudentID-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.StudentID-inner {
+  margin: 100px auto;
+  background: #f8f9fa;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  transition: all 0.3s;
+}
+
+.StudentID-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.StudentID-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 100%;
+  height: 80%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.StudentID-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.StudentID-content h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #716c6c;
+  margin-bottom: 20px;
+}
+
+.StudentID-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  /* height: 25%; */
+}
+
+.profileImg {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.StudentID-img p {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #716c6c;
+  font-weight: 600;
+}
+
+.StudentID-btn {
+  border: none;
+  border-radius: 3px;
+  background-color: #997e52;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 500px) {
+  .StudentID-inner {
+    width: 450px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .StudentID-inner {
+    height: 550px;
+  }
+}
